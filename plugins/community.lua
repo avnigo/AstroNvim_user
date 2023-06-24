@@ -13,15 +13,15 @@ return {
   { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.editing-support.text-case-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
-  { import = "astrocommunity.editing-support.true-zen-nvim" },
+  { import = "astrocommunity.editing-support.zen-mode-nvim" },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 
   -- { import = "astrocommunity.motion.harpoon" },
 
-  -- { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.lua" },
 
   -- { import = "astrocommunity.syntax.hlargs-nvim" },
   { import = "astrocommunity.syntax.vim-easy-align" },
