@@ -28,6 +28,11 @@ return {
   { import = "astrocommunity.syntax.vim-sandwich" },
 
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
+  {
+    "willothy/flatten.nvim",
+    lazy = true,
+    event = "VeryLazy",
+  },
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.utility.transparent-nvim" },
   {
