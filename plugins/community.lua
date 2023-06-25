@@ -30,4 +30,9 @@ return {
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.utility.transparent-nvim" },
+  {
+    "xiyaowong/transparent.nvim",
+    lazy = true,
+    cmd = "TransparentToggle",
+  },
 }

@@ -11,7 +11,8 @@ return {
   -- },
   {
     "mbbill/undotree",
-    lazy = false,
+    cmd = "UndotreeToggle",
+    lazy = true,
   },
   {
     "mechatroner/rainbow_csv",
