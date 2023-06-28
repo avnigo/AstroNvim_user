@@ -33,7 +33,7 @@ return {
     lazy = true,
     event = "VeryLazy",
   },
-  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  -- { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.utility.transparent-nvim" },
   {
     "xiyaowong/transparent.nvim",

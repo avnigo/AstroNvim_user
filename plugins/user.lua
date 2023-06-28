@@ -18,6 +18,7 @@ return {
     "mechatroner/rainbow_csv",
     lazy = true,
     ft = { "csv" },
+    init = function() vim.g.rbql_with_headers = 1 end,
   },
   -- {
   --   "christoomey/vim-tmux-navigator",
