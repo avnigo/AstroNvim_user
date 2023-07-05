@@ -16,7 +16,10 @@ return {
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   {
     "folke/zen-mode.nvim",
-    config = require("user.init").noCodeToggle(),
+    config = {
+      on_open = function() require("user.init").noCodeToggle() end,
+      on_close = function() end,
+    },
   },
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
