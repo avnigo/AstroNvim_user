@@ -41,6 +41,7 @@ return {
     event = "VeryLazy",
   },
   -- { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.utility.transparent-nvim" },
   {
     "xiyaowong/transparent.nvim",
