@@ -36,7 +36,7 @@ return {
     },
     ["<A-j>"] = { "<Esc><cmd>m .+1<CR>==" },
     ["<A-k>"] = { "<Esc><cmd>m .-2<CR>==" },
-    ["gp"] = { "`[v`]" },
+    ["gp"] = { "`[v`]", desc = "Go to paste" },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },

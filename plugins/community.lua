@@ -25,6 +25,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
 
   -- { import = "astrocommunity.motion.harpoon" },
+  { import = "astrocommunity.motion.mini-surround" },
 
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.python" },
