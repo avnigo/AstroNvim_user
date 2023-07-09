@@ -12,6 +12,19 @@ return {
   { import = "astrocommunity.editing-support.mini-splitjoin" },
   { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.editing-support.text-case-nvim" },
+  {
+    "johmsalas/text-case.nvim",
+    config = function()
+      require("textcase").setup {
+        vim.keymap.set(
+          "n",
+          "gat",
+          function() require("textcase").operator "to_title_case" end,
+          { desc = "Convert to_title_case" }
+        ),
+      }
+    end,
+  },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.editing-support.zen-mode-nvim" },
   {
