@@ -8,9 +8,12 @@ return {
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
 
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+
   -- { import = "astrocommunity.editing-support.refactoring" },
   { import = "astrocommunity.editing-support.mini-splitjoin" },
-  { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
+  { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
+  -- { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.editing-support.text-case-nvim" },
   {
     "johmsalas/text-case.nvim",
