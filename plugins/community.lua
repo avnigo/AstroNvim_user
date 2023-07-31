@@ -13,7 +13,6 @@ return {
   -- { import = "astrocommunity.editing-support.refactoring" },
   { import = "astrocommunity.editing-support.mini-splitjoin" },
   { import = "astrocommunity.editing-support.rainbow-delimiters-nvim" },
-  -- { import = "astrocommunity.editing-support.nvim-ts-rainbow2" },
   { import = "astrocommunity.editing-support.text-case-nvim" },
   {
     "johmsalas/text-case.nvim",
@@ -57,7 +56,7 @@ return {
     lazy = true,
     event = "VeryLazy",
   },
-  -- { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.utility.noice-nvim" },
   { import = "astrocommunity.utility.transparent-nvim" },
   {
