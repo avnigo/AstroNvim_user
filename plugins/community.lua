@@ -4,6 +4,7 @@ return {
   -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
+  { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.dracula-nvim" },
   { import = "astrocommunity.colorscheme.vscode-nvim" },
@@ -58,7 +59,6 @@ return {
   },
   { import = "astrocommunity.terminal-integration.vim-tmux-yank" },
   { import = "astrocommunity.utility.noice-nvim" },
-  { import = "astrocommunity.utility.transparent-nvim" },
   {
     "xiyaowong/transparent.nvim",
     lazy = true,
